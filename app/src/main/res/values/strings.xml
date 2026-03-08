@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">AppMultiActivity</string>
+
+    <!-- Activity 1 -->
+    <string name="titulo_activity1">SALUDO</string>
+    <string name="label_nombre_usuario">Nombre del usuario</string>
+    <string name="hint_nombre_usuario">Digita tu nombre</string>
+    <string name="boton_saludar_continuar">Continuar</string>
+    <string name="saludo_popup">Hola, %1$s</string>
+    <string name="saludo_edittext">Hola, %1$s</string>
+
+    <!-- Activity 2 -->
+    <string name="titulo_activity2">LOGIN</string>
+    <string name="label_usuario">Usuario</string>
+    <string name="label_contrasena">Contraseña</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="boton_inicio">INICIO</string>
+    <string name="boton_registrar">Registrar</string>
+    <string name="datos_incorrectos">Datos Incorrectos</string>
+    <string name="bienvenido_hz">Bienvenido hz</string>
+
+    <!-- Activity 3 -->
+    <string name="titulo_activity3">CRUD</string>
+    <string name="label_id">ID</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="label_apellido">Apellido</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="boton_insertar">Insertar</string>
+    <string name="boton_leer">Leer</string>
+    <string name="boton_modificar">Modificar</string>
+    <string name="boton_eliminar">Eliminar</string>
+
+    <!-- Activity 4 -->
+    <string name="titulo_activity4">Registro Usuarios</string>
+    <string name="hint_id_registro">Digita tu ID</string>
+    <string name="hint_nombre_registro">Digita tu Nombre</string>
+    <string name="hint_apellido_registro">Digita tu Apellido</string>
+    <string name="hint_password_registro">Digita tu Contraseña</string>
+    <string name="boton_guardar">Guardar</string>
+
+    <!-- Mensajes -->
+    <string name="popup_titulo">Mensaje</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="error_campos">Complete todos los campos</string>
+    <string name="registro_exitoso">Registro exitoso</string>
+    <string name="registro_no_encontrado">Registro no encontrado</string>
+    <string name="registro_actualizado">Registro actualizado</string>
+    <string name="registro_eliminado">Registro eliminado</string>
+</resources>

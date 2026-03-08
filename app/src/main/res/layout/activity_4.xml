@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_app"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_activity4"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            style="@style/TituloPrincipal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_id"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etIdRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_id_registro"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nombre"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etNombreRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre_registro"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_apellido"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etApellidoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_apellido_registro"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_contrasena"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etPasswordRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password_registro"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            style="@style/CampoTexto" />
+
+        <Button
+            android:id="@+id/btnGuardarRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_guardar"
+            style="@style/BotonPrincipal" />
+
+    </LinearLayout>
+</ScrollView>

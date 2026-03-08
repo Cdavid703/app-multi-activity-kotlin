@@ -1,0 +1,9 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="fondo_app">#F5F5F5</color>
+    <color name="color_principal">#6A4FB3</color>
+    <color name="color_principal_oscuro">#4E3A8C</color>
+    <color name="gris_texto">#555555</color>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_app"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_activity3"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            style="@style/TituloPrincipal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_id"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etIdCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_id"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nombre"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etNombreCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_apellido"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etApellidoCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_apellido"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            style="@style/CampoTexto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_contrasena"
+            android:layout_marginBottom="8dp"
+            style="@style/EtiquetaTexto" />
+
+        <EditText
+            android:id="@+id/etPasswordCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            style="@style/CampoTexto" />
+
+        <Button
+            android:id="@+id/btnInsertarCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_insertar"
+            android:layout_marginBottom="10dp"
+            style="@style/BotonPrincipal" />
+
+        <Button
+            android:id="@+id/btnLeerCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_leer"
+            android:layout_marginBottom="10dp"
+            style="@style/BotonPrincipal" />
+
+        <Button
+            android:id="@+id/btnModificarCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_modificar"
+            android:layout_marginBottom="10dp"
+            style="@style/BotonPrincipal" />
+
+        <Button
+            android:id="@+id/btnEliminarCrud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_eliminar"
+            style="@style/BotonPrincipal" />
+
+    </LinearLayout>
+</ScrollView>
