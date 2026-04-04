@@ -1,5 +1,6 @@
 package com.example.appmultiactivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -17,6 +18,7 @@ class Activity3 : AppCompatActivity() {
     private lateinit var btnLeerCrud: Button
     private lateinit var btnModificarCrud: Button
     private lateinit var btnEliminarCrud: Button
+    private lateinit var btnIrCamara: Button
 
     private lateinit var databaseHelper: DatabaseHelper
 
@@ -33,6 +35,7 @@ class Activity3 : AppCompatActivity() {
         btnLeerCrud = findViewById(R.id.btnLeerCrud)
         btnModificarCrud = findViewById(R.id.btnModificarCrud)
         btnEliminarCrud = findViewById(R.id.btnEliminarCrud)
+        btnIrCamara = findViewById(R.id.btnIrCamara)
 
         databaseHelper = DatabaseHelper(this)
 
@@ -50,6 +53,10 @@ class Activity3 : AppCompatActivity() {
 
         btnEliminarCrud.setOnClickListener {
             eliminarUsuario()
+        }
+
+        btnIrCamara.setOnClickListener {
+            startActivity(Intent(this, Activity5::class.java))
         }
     }
 

@@ -115,5 +115,12 @@
             android:text="@string/boton_eliminar"
             style="@style/BotonPrincipal" />
 
+        <Button
+            android:id="@+id/btnIrCamara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_ir_camara"
+            android:layout_marginTop="10dp"
+            style="@style/BotonPrincipal" />
     </LinearLayout>
 </ScrollView>

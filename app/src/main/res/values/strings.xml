@@ -42,6 +42,15 @@
     <string name="hint_password_registro">Digita tu Contraseña</string>
     <string name="boton_guardar">Guardar</string>
 
+    <!-- Activity 5 -->
+    <string name="titulo_activity5">Cámara</string>
+    <string name="boton_abrir_camara">Abrir cámara</string>
+    <string name="boton_guardar_galeria">Guardar en galería</string>
+    <string name="boton_ir_camara">Ir a cámara</string>
+    <string name="mensaje_foto_guardada">Foto guardada en la galería</string>
+    <string name="mensaje_error_foto">No se pudo tomar la foto</string>
+    <string name="mensaje_primero_foto">Primero debes tomar una foto</string>
+
     <!-- Mensajes -->
     <string name="popup_titulo">Mensaje</string>
     <string name="boton_aceptar">Aceptar</string>
@@ -50,4 +59,6 @@
     <string name="registro_no_encontrado">Registro no encontrado</string>
     <string name="registro_actualizado">Registro actualizado</string>
     <string name="registro_eliminado">Registro eliminado</string>
+
+
 </resources>

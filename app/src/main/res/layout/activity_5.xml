@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_app"
+    tools:context=".Activity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_activity5"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            style="@style/TituloPrincipal" />
+
+        <ImageView
+            android:id="@+id/imageViewFoto"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD" />
+
+        <Button
+            android:id="@+id/btnAbrirCamara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_abrir_camara"
+            android:layout_marginBottom="12dp"
+            style="@style/BotonPrincipal" />
+
+        <Button
+            android:id="@+id/btnGuardarGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_guardar_galeria"
+            style="@style/BotonPrincipal" />
+
+    </LinearLayout>
+</ScrollView>
