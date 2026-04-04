@@ -122,5 +122,13 @@
             android:text="@string/boton_ir_camara"
             android:layout_marginTop="10dp"
             style="@style/BotonPrincipal" />
+
+        <Button
+            android:id="@+id/btnIrApi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a API"
+            android:layout_marginTop="10dp"
+            style="@style/BotonPrincipal" />
     </LinearLayout>
 </ScrollView>

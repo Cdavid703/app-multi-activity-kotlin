@@ -19,6 +19,7 @@ class Activity3 : AppCompatActivity() {
     private lateinit var btnModificarCrud: Button
     private lateinit var btnEliminarCrud: Button
     private lateinit var btnIrCamara: Button
+    private lateinit var btnIrApi: Button
 
     private lateinit var databaseHelper: DatabaseHelper
 
@@ -36,27 +37,21 @@ class Activity3 : AppCompatActivity() {
         btnModificarCrud = findViewById(R.id.btnModificarCrud)
         btnEliminarCrud = findViewById(R.id.btnEliminarCrud)
         btnIrCamara = findViewById(R.id.btnIrCamara)
+        btnIrApi = findViewById(R.id.btnIrApi)
 
         databaseHelper = DatabaseHelper(this)
 
-        btnInsertarCrud.setOnClickListener {
-            insertarUsuario()
-        }
-
-        btnLeerCrud.setOnClickListener {
-            leerUsuario()
-        }
-
-        btnModificarCrud.setOnClickListener {
-            modificarUsuario()
-        }
-
-        btnEliminarCrud.setOnClickListener {
-            eliminarUsuario()
-        }
+        btnInsertarCrud.setOnClickListener { insertarUsuario() }
+        btnLeerCrud.setOnClickListener { leerUsuario() }
+        btnModificarCrud.setOnClickListener { modificarUsuario() }
+        btnEliminarCrud.setOnClickListener { eliminarUsuario() }
 
         btnIrCamara.setOnClickListener {
             startActivity(Intent(this, Activity5::class.java))
+        }
+
+        btnIrApi.setOnClickListener {
+            startActivity(Intent(this, Activity6::class.java))
         }
     }
 
@@ -72,7 +67,6 @@ class Activity3 : AppCompatActivity() {
         }
 
         val id = idTexto.toInt()
-
         val insertado = databaseHelper.insertarUsuario(id, nombre, apellido, password)
 
         if (insertado) {
